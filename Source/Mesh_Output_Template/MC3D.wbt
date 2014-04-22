@@ -1,0 +1,20 @@
+<WBTEMPLATE>
+! File created at @TimeStamp@
+! This template extracts the mesh in a format
+! compatible with 3D UNSTRUCTURAL MC CODE.
+!
+/PREP7
+SHPP,OFF
+/NOPR
+! NODES
+@MeshNodes@
+! ELEMENTS
+@MeshElements@
+! COMPONENTS
+@Components@
+!
+! Turn output back on
+!
+/GOPR
+!
+FINI
